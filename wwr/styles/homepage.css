@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Special+Elite&display=swap');
+
+.home-title {
+    font-family: "Special Elite", "Barlow", sans-serif;
+    font-size: 2em;
+}
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +16,11 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-size: 1.5em;
+    text-decoration: none;
+    color: #396E94;
+    text-align: center;
+    padding: 35px;
+    border-radius: 5px;
 }
 
 #hero-msg {
@@ -27,7 +40,13 @@ main section {
 }
 
 body {
+
     background-color: #396E94;
+    font-family: Barlow, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+   
 }
 
 header {
@@ -41,23 +60,42 @@ nav a:hover {
     color: white;
     background-color: #396E94;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     background-color: #396E94;
     color: white;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
     background-color: white ;
     color: #396E94;
 }
+
+.card-img {
+    border: 10px solid #1e204f;
+}
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains {
+    border: 10px solid #1e204f;
+}
+
 #background {
     background-color: #396E94;
 }
 .msg {
-    background-color: #1e204f;
+    background-color: #396E94;
+    line-height: 1.5em;
 }
 footer {
     background-color: white;
