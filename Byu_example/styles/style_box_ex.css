@@ -1,0 +1,37 @@
+
+body {
+    max-width: 1600px;
+    margin: 0;
+    background-color: gray;
+}
+
+#cafe {
+    height:200px;
+    width:200px;
+   -moz-border-radius:200px;
+   -webkit-border-radius:200px;
+   border-radius:200px;
+   margin: 90px;
+}
+#cafe ,#logo, #person{
+    border: 15px solid rgb(59, 67, 73);
+}
+
+#logo {
+    height:200px;
+    width:200px;
+   -moz-border-radius:200px;
+   -webkit-border-radius:200px;
+   border-radius:200px;
+   margin: 90px;
+}
+
+
+#person {
+    height:200px;
+    width:200px;
+   -moz-border-radius:200px;
+   -webkit-border-radius:200px;
+   border-radius:200px;
+   margin: 90px;
+}
