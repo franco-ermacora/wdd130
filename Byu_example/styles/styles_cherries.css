@@ -1,8 +1,23 @@
 #red {
     color: red;
-    font-size: 5.5em;
+    font-size: 4.0em;
 }
 
 #black {
-    font-size: 5.0em;
+    font-size: 7.0em;
+    text-align: center;
 }
+
+#image {
+    width: 600px;
+    background-color: white;
+}
+
+.size {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    max-width: 1200px;
+    max-height: 600px;
+    background-color: rgb(151, 150, 150);
+}
+
