@@ -1,0 +1,130 @@
+.home-title {
+    font-family: "Special Elite", "Barlow", sans-serif;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+#hero-msg {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 10px;
+}
+
+
+main section {
+    text-align: center;
+}
+
+
+body {
+
+    background-color: #9799CA;
+    font-family: Barlow, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    display: grid;
+}
+
+.logo {
+    width: 80px;
+    align-items: center;
+}
+
+/*.page2 {
+    color: white;
+    background-color: #BD93D8;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    grid-column: 1/2;
+    text-align: center;
+
+}
+
+.page3 {
+    color: white;
+    background-color: #BD93D8;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    grid-column: 2/3;
+    text-align: center;
+}
+*/
+
+#image-page2{
+    grid-column: 1/2;
+    width: 500px;
+    height: 350px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 10px solid #7BCDBA;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#image-page3 {
+    grid-column: 2/3;
+    width: 500px;
+    height: 350px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 10px solid #7BCDBA;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#image-page2:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+#image-page3:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+#options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+} 
+
+footer p {
+    font-size: 1.2em;
+}  
+
+footer {
+    background-color: #BD93D8;
+    margin-top: 50px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 1600px;
+}
