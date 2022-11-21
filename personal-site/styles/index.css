@@ -148,3 +148,45 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+
+
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+   
+    #hero-msg {
+        margin-top: 0;
+    }
+
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+
+    
+    footer {
+        margin-top: 25px;
+    }
+}
