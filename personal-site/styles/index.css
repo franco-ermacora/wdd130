@@ -155,7 +155,7 @@ footer {
 
 
 @media screen and (max-width: 900px) {
-    .home-grid {
+    #contect .home-grid {
         display: block;
         height: auto;
     }
