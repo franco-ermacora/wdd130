@@ -1,7 +1,7 @@
 .home-title {
     font-family: "Special Elite", "Barlow", sans-serif;
     font-size: 2em;
-    color: #ffffff;
+    color: #9799CA;
 }
 
 
@@ -16,6 +16,26 @@
     align-self: center;
 }
 
+nav {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #9799CA;
+}
+
+nav a {
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #7BCDBA;
+    color: white;
+}
 
 #hero-msg {
     text-align: center;
@@ -32,7 +52,7 @@ main section {
 
 body {
 
-    background-color: #9799CA;
+    background-color: white;
     font-family: Barlow, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -45,7 +65,7 @@ header {
 }
 
 .logo {
-    width: 80px;
+    width: 100px;
     align-items: center;
 }
 
@@ -119,12 +139,12 @@ footer p {
 }  
 
 footer {
-    background-color: #BD93D8;
+    background-color: #9799CA;
     margin-top: 50px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: absolute;
     bottom: 0;
-    width: 1600px;
+    width: 100%;
 }
