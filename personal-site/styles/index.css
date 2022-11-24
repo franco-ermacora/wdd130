@@ -4,6 +4,9 @@
     color: #9799CA;
 }
 
+h2{
+    font-size: 1em;
+}
 
 #content{
     max-width: 1600px;
@@ -14,6 +17,8 @@
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    border: 1px solid #7BCDBA;
+    margin: 10px;
 }
 
 nav {
@@ -104,6 +109,87 @@ header {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.home-grip{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.pro-grip{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.card-img{
+    width: 150px;
+}
+
+.pro-img{
+    width: 150px;
+}
+
+.image1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.image2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.image3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.image4{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.image5{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.image6{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.image7{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.image8{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.image9{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.image10{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.image11{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.image12{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+
 #image-page3 {
     grid-column: 2/3;
     width: 500px;
@@ -144,7 +230,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
