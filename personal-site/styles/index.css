@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Mono:wght@300&display=swap');
+
+
 .home-title {
-    font-family: "Special Elite", "Barlow", sans-serif;
+    font-family: "Kaushan Script";
     font-size: 2em;
     color: #9799CA;
 }
@@ -232,6 +235,7 @@ footer {
     align-items: center;
     bottom: 0;
     width: 100%;
+    font-family: Roboto Mono, Helvetica, sans-serif;;
 }
 
 
