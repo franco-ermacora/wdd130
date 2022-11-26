@@ -217,6 +217,7 @@ header {
 #options{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 400px;
 }
 
 footer p a:hover {
