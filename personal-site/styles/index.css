@@ -11,9 +11,38 @@ h2{
     font-size: 1em;
 }
 
-#content{
+
+#content1{
     max-width: 1600px;
     margin: 0 auto;
+    background-image: url("Logito.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 30rem;
+    background-repeat: no-repeat;
+
+}
+
+#content2{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: url("Draw-logito.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 30rem;
+    background-repeat: no-repeat;
+
+}
+
+#content3{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: url("Pro-logito.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 30rem;
+    background-repeat: no-repeat;
+
 }
 
 #logo_link {
@@ -76,6 +105,7 @@ header {
     width: 100px;
     align-items: center;
 }
+
 
 /*.page2 {
     color: white;
