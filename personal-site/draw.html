@@ -39,70 +39,74 @@
                 the art as I do, also the other objective, is that companies
                 looking for programmers, see my site.
               </p> -->
+            
             <main class="home-grip">
+
                 <section class="image1">
                     <h2>Coming soon...</h2>
-                    <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
+                    <img id="one" src="images/Logo_drawing.png" alt="draw">
+                    
                 </section>
                 <section class="image2">
                     <h2>"Each person a mind"</h2>
                     <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
                 </section>
                 <section class="image3">
                     <h2>"You and You"</h2>
                     <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
                 </section>
                 <section class="image4">
                     <h2>"Sppaggettinni"</h2>
                     <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
                 </section>
                 <section class="image5">
                     <h2>"Forgive-Myself :)"</h2>
                     <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
                 </section>
                 <section class="image6">
                     <h2>Cake?</h2>
                     <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
                 </section>
                 <section class="image7">
                     <h2>"Mind Factory"</h2>
                     <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
                 </section>
                 <section class="image8">
                     <h2>"ZOoOZ"</h2>
                     <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
                 </section>
                 <section class="image9">
                     <h2>"Button Circus"</h2>
                     <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
                 </section>
                 <section class="image10">
                     <h2>"1, 2, 3"</h2>
                     <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
                 </section>
                 <section class="image11">
                     <h2>"Afternoon"</h2>
                     <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
                 </section>
                 <section class="image12">
                     <h2>"Ocean Eyes"</h2>
                     <img class="card-img" src="images/Logo_drawing.png" alt="draw">
-                    <a href=""><h3 class="download"></h3></a>
                 </section>
+                 
             </main> 
-             
-    
+            
+                            <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- The Close Button -->
+                <span class="close">&times;</span>
+                
+                    <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+                
+                    <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+                </div>
+            
 
             <footer>
                 <p>Franco Ermacora &copy; 2022 - Franco Ermacora</p>
@@ -119,6 +123,28 @@
                     </a>
                 </div>
             </footer>
-            </div>      
+            </div>
+            <script>
+                // Get the modal
+                var modal = document.getElementById("myModal");
+            
+                // Get the image and insert it inside the modal - use its "alt" text as a caption
+                var img = document.getElementById("one");
+                var modalImg = document.getElementById("img01");
+                var captionText = document.getElementById("caption");
+                img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+                }
+            
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+            
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                modal.style.display = "none";
+                }
+            </script>  
         </body>
 </html>
