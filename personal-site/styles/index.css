@@ -148,6 +148,8 @@ header {
     grid-template-rows: repeat(3, 1fr);
 }
 
+
+
 .pro-grip{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -324,6 +326,13 @@ footer {
   @keyframes zoom {
     from {transform:scale(0)}
     to {transform:scale(1)}
+  }
+
+  .caption-class{
+    color: #000 !important;
+    font-size: 2rem;
+    font-style: oblique;
+    font-weight: 900;
   }
   
   /* The Close Button */
