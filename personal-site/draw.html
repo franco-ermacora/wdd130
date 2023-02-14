@@ -23,27 +23,19 @@
         </header>
         <section id="hero-msg">
             <h1 class="home-title">Drawings</h1>
-        </section>
-        <!--            <p>
-                  Page two, which would be the page where I would upload my drawings, 
-                would be an extensive catalog, next to each image the name of the 
-                work of art, the date, the type of art, and if it is digital or
-                hand-painted. Under each illustration I am going to put a box where 
-                people can ask about the image, the message will arrive in my email,
-                with the question and what image it is from, the idea is that I
-                can interact with people a little closer.
-                Under each image, people can rate with stars and also donate money.
-                Also on page two, below everything, there will be an option for 
-                commissions (Drawings that people ask me to make for them). I will
-                also make a small section of tips and tools that I use for my
-                drawings, very similar to what I will do on Instagram and my social networks.<br>
-                <br>The main idea of page two is that people see my drawings and enjoy
-                the art as I do, also the other objective, is that companies
-                looking for programmers, see my site.
-              </p> -->
-
-        <main class="home-grip">
-
+            <section>
+                <p>
+                    Sort by: 
+                    <select id="sortBy">
+                        <option value="drawNameAscending">Draw Name Ascending</option>
+                        <option value="drawNameDescending">Draw Name Descending</option>
+                    </select>
+                </p>
+                <div id="dibujos">
+                </div>
+            </section>
+        <!--<main class="home-grip">
+            
             <section class="image1">
                 <img class="card-img" src="images/Logo_drawing.png" alt="Coming soon...">
                 <h2>Coming soon...</h2>
@@ -91,26 +83,26 @@
             <section class="image12">
                 <img class="card-img" src="images/rsz_ojos_oceanicos.png" alt="Ocean Eyes">
                 <h2>"Ocean Eyes"</h2>
-            </section>
+            </section>-->
 
         </main>
 
         <!-- The Modal -->
-        <div id="myModal" class="modal">
+        <!--<div id="myModal" class="modal">-->
 
             <!-- The Close Button -->
-            <span class="close">&times;</span>
+            <!--<span class="close">&times;</span>-->
 
             <!-- Modal Content (The Image) -->
-            <img class="modal-content" alt="" src="">
+            <!--<img class="modal-content" alt="" src="">-->
 
             <!-- Modal Caption (Image Text) -->
-            <div class="caption-class" id="caption"></div>
-        </div>
+            <!--<div class="caption-class" id="caption"></div>-->
+        <!--</div>-->
 
 
         <footer>
-            <p>Franco Ermacora &copy; 2022 - Franco Ermacora</p>
+            <p>Franco Ermacora &copy; <span id="year"></span></p>
             <a href="site-plan.html" target="_blank">Site-plan</a>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
@@ -125,27 +117,8 @@
             </div>
         </footer>
     </div>
-    <script>
-
-        let card_img = document.querySelectorAll(".card-img");
-        let modal = document.querySelector(".modal");
-        let modalImg = document.querySelector(".modal-content");
-        let captionText = document.querySelector(".caption-class");
-        
-        for (let i = 0; i < card_img.length; i++) {
-            let src_img = card_img[i].attributes[1].nodeValue;
-            card_img[i].onclick = function () {
-                modal.style.display = "block";
-                modalImg.src = src_img;
-                captionText.innerHTML = this.alt;
-            }
-            let span = document.getElementsByClassName("close")[0];
-            span.onclick = function () {
-                modal.style.display = "none";
-            }
-        }
-        
-    </script>
+    <script src="script/draw.js"></script>
+  
 </body>
 
 </html>
