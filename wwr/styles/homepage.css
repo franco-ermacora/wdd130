@@ -20,6 +20,7 @@
 nav {
     display: flex;
     justify-content: space-around;
+    
 }
 
 nav a {
@@ -31,6 +32,7 @@ nav a {
     text-align: center;
     padding: 35px;
     border-radius: 5px;
+    
 }
 
 #hero-msg {
@@ -78,6 +80,7 @@ header {
     background-color: #ffe733;
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: 0.8;
 }
 nav a:hover {
     background-color: #396E94;
